@@ -2,8 +2,8 @@ hello world!
 
 *italic*
 **bold**
-#big heading
-##smaller heading
+# big heading
+## smaller heading
 
 [link](google.com)
 ![image](https://www.zooborns.com/.a/6a010535647bf3970b012876b4cdbe970c-600wi)
