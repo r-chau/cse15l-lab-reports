@@ -1,8 +1,13 @@
+# Hello and welcome to my page!
+down below is some experimenting for our second lab
+
+click [here](https://r-chau.github.io/cse15l-lab-reports/lab-report-1-week-2.html) to access Lab Report 1!
+
+
+
+_________________________
 
 here are some edits on vs code :D
-[Lab Report 1](lab-report-1-week-2.html)
-
-
 hello world!
 
 *italic*
