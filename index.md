@@ -1,5 +1,6 @@
 
 here are some edits on vs code :D
+[Lab Report 1](lab-report-1-week-2.html)
 
 
 hello world!
