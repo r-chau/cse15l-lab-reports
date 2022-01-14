@@ -32,9 +32,9 @@ horizontal rule
 
 **************
 
-'inline code'
+`inline code`
 
-'''
+```
 code
 block
-'''
+```
