@@ -29,6 +29,9 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 Type `yes`, press enter, and enter in your password when prompted to do so.
 
 This whole process should look something like this:
+![image](ssh.png)
+
+Notice that you are now logged into the remote computer from your local computer.
 
 
 > **Step 3: Trying Some Commands**
