@@ -77,7 +77,10 @@ This process should look something like this:
 
 > **Step 5: Setting an SSH Key**
 
+To make running faster when using `ssh` or `scp`, we can set an `ssh` key to avoid entering our password every time we need to log in. This key can be used instead of your password. 
 
+To do this, run this on your computer:
+![image](keygen.png)
 
 > **Step 6: Optimizing Remote Running**
 
