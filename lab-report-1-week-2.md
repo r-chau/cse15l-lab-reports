@@ -80,7 +80,10 @@ This process should look something like this:
 To make running faster when using `ssh` or `scp`, we can set an `ssh` key to avoid entering our password every time we need to log in. This key can be used instead of your password. 
 
 To do this, run this on your computer:
+
 ![image](keygen.png)
+
+Now, you should be able to use `ssh` or `scp` without having to enter your password.
 
 > **Step 6: Optimizing Remote Running**
 
@@ -89,5 +92,5 @@ Here are some command tricks to help you make running commands more efficient an
 ```
 $ ssh cs15lwi22@ieng6.ucsd.edu "pwd"
 ```
-* Separting commands with semicolons on the same line will run multiple commands.
+* Separating commands with semicolons on the same line will run multiple commands.
 * To avoid typing in the same command over and over again, you can use the up-arrow on the keyboard to get the recent commands used in the terminal.
