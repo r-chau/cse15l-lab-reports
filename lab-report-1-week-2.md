@@ -109,5 +109,6 @@ Here are some command tricks to help you make running commands more efficient an
 ```
 $ ssh cs15lwi22@ieng6.ucsd.edu "pwd"
 ```
+![image](example.png)
 * Separating commands with semicolons on the same line will run multiple commands.
 * To avoid typing in the same command over and over again, you can use the up-arrow on the keyboard to get the recent commands used in the terminal.
