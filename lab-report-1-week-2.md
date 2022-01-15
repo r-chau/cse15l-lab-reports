@@ -36,11 +36,44 @@ Notice that you are now logged into the remote computer from your local computer
 
 > **Step 3: Trying Some Commands**
 
+Now we can try running some commands in both your computer and the remote computer after using `ssh`. 
+* `cd` : changes your directory
+* `ls` : lists the files in the directory
+* `pwd` : prints the working directory
+* `exit` or CTRL+D : logs out of the remote server
 
+Here are some examples of what happens when you run these commands:
+![image](commands.png)
 
-> **Step 4: Moving Files with 'scp'**
+> **Step 4: Moving Files with `scp`**
 
+Now we can start to copy files to and from the remote computer with the `scp` command.
+First, you will need to create a file called `WhereAmI.java` to practice moving files back and forth.
 
+```
+class WhereAmI {
+  public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));
+  }
+}
+```
+
+You can run this file using `javac` and `java` on your computer and observe the message printed.
+
+Run the command below and enter your password when prompted to. Again, replace `zz` with your course-specific account.
+
+```
+scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/
+```
+Now, you can log into ieng6 using the `ssh` command from Step 2, and test the `ls` command. You should see that the `WhereAmI.java` file has successfully copied over to the remote computer, and you can run the `javac` and `java` commands from the remote server. 
+
+This process should look something like this:
+
+(Note: Both `WhereAmI.java` and `WhereAmI.class` are listed on the remote server after running `ls` because I had previously ran `javac` on the remote server)
+![image](movingfiles.png)
 
 > **Step 5: Setting an SSH Key**
 
