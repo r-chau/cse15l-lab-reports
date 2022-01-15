@@ -80,3 +80,11 @@ This process should look something like this:
 
 
 > **Step 6: Optimizing Remote Running**
+
+Here are some command tricks to help you make running commands more efficient and help save time:
+* Writing a command in quotes after a `ssh` command will run it on the remote server and log out. Ex. The command below will print the working directory on the remote server after logging in:
+```
+$ ssh cs15lwi22@ieng6.ucsd.edu "pwd"
+```
+* Separting commands with semicolons on the same line will run multiple commands.
+* To avoid typing in the same command over and over again, you can use the up-arrow on the keyboard to get the recent commands used in the terminal.
