@@ -100,7 +100,8 @@ $ scp /Users/rache/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_ke
 # You use your username and the path you saw in the command above
 ```
 
-Now, you should be able to use `ssh` or `scp` without having to enter your password.
+Now, you should be able to use `ssh` or `scp` without having to enter your password. If you observe below, I successfully log into the remote servser without entering a password.
+![image](key.png)
 
 > **Step 6: Optimizing Remote Running**
 
