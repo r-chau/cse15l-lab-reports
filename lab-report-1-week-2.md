@@ -83,6 +83,23 @@ To do this, run this on your computer:
 
 ![image](keygen.png)
 
+If you are on Windows, you will have to do an extra step [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation), which will look like this:
+
+![image](ssh-add.png)
+
+Now, we will have to copy the public key to the `.ssh` directory of your user account. Follow below
+
+```
+$ ssh cs15lwi22zz@ieng6.ucsd.edu
+<Enter Password>
+# now on server
+$ mkdir .ssh
+$ <logout>
+# back on client
+$ scp /Users/rache/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
+# You use your username and the path you saw in the command above
+```
+
 Now, you should be able to use `ssh` or `scp` without having to enter your password.
 
 > **Step 6: Optimizing Remote Running**
