@@ -26,3 +26,14 @@ Here is the output and symptom that `image-test.md` caused when running `java Ma
 ![image](image-test-output.jpg)
 
 Shown in the terminal above, the code prints out both the image and the link. This shows that the code does not know how to denote between a link and image file, so I had to update the code to be able to check to see if a line has a "`!`" before the open bracket. 
+
+>**Problem 3: File with No Links**
+
+![image](commit3.jpg)
+
+Here is the test file with a failure-inducing output that prompted me to make the above change: [`no-links.md`](https://github.com/r-chau/markdown-parse/blob/main/no-links.md)
+
+Here is the output and symptom that `no-links.md` caused when running `java MarkdownParse no-links.md`:
+![image](no-links-output.jpg)
+
+Shown in the terminal above, the file causes an `IndexOutOfBoundsException` since the code will try get a substring of the file with a negative index. To fix this, I had to change to code to check that an open bracket exists, and if not, then to break out of the while loop.
