@@ -2,6 +2,7 @@
 down below is some experimenting for our second lab
 
 click [here](https://r-chau.github.io/cse15l-lab-reports/lab-report-1-week-2.html) to access Lab Report 1!
+
 click [here](https://r-chau.github.io/cse15l-lab-reports/lab-report-2-week-4.html) to access Lab Report 2!
 
 
