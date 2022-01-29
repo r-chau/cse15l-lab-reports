@@ -113,3 +113,14 @@ $ ssh cs15lwi22@ieng6.ucsd.edu "pwd"
 ![image](example.png)
 * Separating commands with semicolons on the same line will run multiple commands.
 * To avoid typing in the same command over and over again, you can use the up-arrow on the keyboard to get the recent commands used in the terminal.
+
+
+Using these shortcuts, we can optimize remote running when making changes to a file (ex. `WhereAmI.java`) locally, and then copying and running it remotely.
+
+* First, I made some changes to `WhereAmI.java` locally to print out `Hello world :)` at the end of the other print statements
+* Then, in the terminal using the up arrow twice and pressing enter (**3 keytrokes**), I was able to copy over the changes of `WhereAmI.java` onto the server
+* Finally, using up arrow twice and enter again (**3 keystrokes**), I was able to `ssh`, and run both the `javac` and `java` commands remotely in one line
+* Now, in the image below, you can observe that the commands ran on the server, and the file changes were successfully copied over as well
+* In total, this process has been shortened down to only **6 keystrokes**
+
+![image](keystrokes.jpg)
