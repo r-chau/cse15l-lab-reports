@@ -32,3 +32,4 @@ As you can see, by adding `*.java` and `*.md`, `scp` only copiesthose files over
 
 Now, we can even come up with a command to copy a whole directory over and run commands on the remote server.
 
+![image](final-command.jpg)
