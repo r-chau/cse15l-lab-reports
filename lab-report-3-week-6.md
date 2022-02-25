@@ -28,8 +28,8 @@ scp -r *.java *.md lib/ cs15lwi22@ieng6.ucsd.edu:markdown-parse
 ```
 ![image](scp-control.jpg)
 
-As you can see, by adding `*.java` and `*.md`, `scp` only copiesthose files over, instead of everything in the `markdown-parse` directory.
+As you can see, by adding `*.java` and `*.md`, `scp` only copies those files over, instead of everything in the `markdown-parse` directory.
 
-Now, we can even come up with a command to copy a whole directory over and run commands on the remote server.
+Now, we can even come up with a command to copy a whole directory over and run tests on the remote server by combining `scp`, `;`, and `ssh`.
 
 ![image](final-command.jpg)

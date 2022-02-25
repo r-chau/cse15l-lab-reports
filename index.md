@@ -7,6 +7,8 @@ click [here](https://r-chau.github.io/cse15l-lab-reports/lab-report-2-week-4.htm
 
 click [here](https://r-chau.github.io/cse15l-lab-reports/lab-report-3-week-6.html) to access Lab Report 3!
 
+click [here](https://r-chau.github.io/cse15l-lab-reports/lab-report-4-week-8.html) to access Lab Report 4!
+
 _________________________
 
 here are some edits on vs code :D
