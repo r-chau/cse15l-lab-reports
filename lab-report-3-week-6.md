@@ -30,9 +30,9 @@ scp -r *.java *.md lib/ cs15lwi22@ieng6.ucsd.edu:markdown-parse
 
 As you can see, by adding `*.java` and `*.md`, `scp` only copies those files over, instead of everything in the `markdown-parse` directory.
 
-Below, I am showing myslef logging in through `ssh` and then running `MarkdownParseTest.java` on the remote server:
+Below, I am showing myself logging in through `ssh` and then running `MarkdownParseTest.java` on the remote server:
 ![image](running-tests.jpg)
 
 Now, we can even come up with a command to copy a whole directory over and run tests on the remote server by combining `scp`, `;`, and `ssh`.
 
-![image](final-command.jpg)
+![image](final-command1.jpg)
