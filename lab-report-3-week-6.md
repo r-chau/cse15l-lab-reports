@@ -33,6 +33,6 @@ As you can see, by adding `*.java` and `*.md`, `scp` only copies those files ove
 Below, I am showing myself logging in through `ssh` and then running `MarkdownParseTest.java` on the remote server:
 ![image](running-tests.jpg)
 
-Now, we can even come up with a command to copy a whole directory over and run tests on the remote server by combining `scp`, `;`, and `ssh`.
+Now, we can even come up with a command to copy a whole directory over and run tests on the remote server by combining `scp`, `;`, and `ssh` (all on the same line!).
 
 ![image](final-command1.jpg)
