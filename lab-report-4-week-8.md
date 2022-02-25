@@ -20,6 +20,9 @@ Using VSCode preview, this is what the above markdown file should produce:
 
 `ucsd.edu`
 
+Here is how I turned it into a test in `MarkdownParseTest.java`:
+![image](snip1test.jpg)
+
 > **Snippet 2**
 
 ```
@@ -37,6 +40,9 @@ Using VSCode preview, this is what the above markdown file should produce:
 `a.com(())`
 
 `example.com`
+
+Here is how I turned it into a test in `MarkdownParseTest.java`:
+![image](snip2test.jpg)
 
 > **Snippet 3**
 
@@ -72,3 +78,6 @@ Using VSCode preview, this is what the above markdown file should produce:
 `https://www.twitter.com`
 `https://ucsd-15l-w22.github.io/`
 `https://cse.ucsd.edu`
+
+Here is how I turned it into a test in `MarkdownParseTest.java`:
+![image](snip3test.jpg)
