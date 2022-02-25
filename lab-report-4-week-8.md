@@ -1,5 +1,7 @@
 # Lab Report 4
 
+Click [here](https://github.com/r-chau/markdown-parse) to access my markdown-parse repository and [here](https://github.com/ajwboi/markdown-parse) for the one I reviewed.
+
 > **Snippet 1**
 
 ```
@@ -23,8 +25,11 @@ Using VSCode preview, this is what the above markdown file should produce:
 Here is how I turned it into a test in `MarkdownParseTest.java`:
 ![image](snip1test.jpg)
 
-For **my implementation**, when  running the tests, here is the specific part of the JUnit output that shows the test failure:
+For **my implementation**, when running the tests, here is the specific part of the JUnit output that shows the test failure:
 ![image](mytest1.jpg)
+
+For the implementation that I reviewed, when running the tests, here is the specific part of the JUnit output that shows the test failure:
+![image](other-test1.jpg)
 
 > **Snippet 2**
 
@@ -47,8 +52,11 @@ Using VSCode preview, this is what the above markdown file should produce:
 Here is how I turned it into a test in `MarkdownParseTest.java`:
 ![image](snip2test.jpg)
 
-For **my implementation**, when  running the tests, here is the specific part of the JUnit output that shows the test failure:
+For **my implementation**, when running the tests, here is the specific part of the JUnit output that shows the test failure:
 ![image](mytest2.jpg)
+
+For the implementation that I reviewed, when running the tests, here is the specific part of the JUnit output that shows the test failure:
+![image](other-test2.jpg)
 
 > **Snippet 3**
 
@@ -88,5 +96,8 @@ Using VSCode preview, this is what the above markdown file should produce:
 Here is how I turned it into a test in `MarkdownParseTest.java`:
 ![image](snip3test.jpg)
 
-For **my implementation**, when  running the tests, here is the specific part of the JUnit output that shows the test failure:
+For **my implementation**, when running the tests, here is the specific part of the JUnit output that shows the test failure:
 ![image](mytest3.jpg)
+
+For the implementation that I reviewed, when running the tests, here is the specific part of the JUnit output that shows the test failure:
+![image](other-test3.jpg)
