@@ -23,7 +23,7 @@ Using VSCode preview, this is what the above markdown file should produce:
 Here is how I turned it into a test in `MarkdownParseTest.java`:
 ![image](snip1test.jpg)
 
-For **my implementation**, when  running the tests, here is the speific part of the JUnit output that shows the test failure:
+For **my implementation**, when  running the tests, here is the specific part of the JUnit output that shows the test failure:
 ![image](mytest1.jpg)
 
 > **Snippet 2**
@@ -47,7 +47,7 @@ Using VSCode preview, this is what the above markdown file should produce:
 Here is how I turned it into a test in `MarkdownParseTest.java`:
 ![image](snip2test.jpg)
 
-For **my implementation**, when  running the tests, here is the speific part of the JUnit output that shows the test failure:
+For **my implementation**, when  running the tests, here is the specific part of the JUnit output that shows the test failure:
 ![image](mytest2.jpg)
 
 > **Snippet 3**
@@ -88,5 +88,5 @@ Using VSCode preview, this is what the above markdown file should produce:
 Here is how I turned it into a test in `MarkdownParseTest.java`:
 ![image](snip3test.jpg)
 
-For **my implementation**, when  running the tests, here is the speific part of the JUnit output that shows the test failure:
+For **my implementation**, when  running the tests, here is the specific part of the JUnit output that shows the test failure:
 ![image](mytest3.jpg)
