@@ -41,7 +41,7 @@ This is what I found after using `diff`:
 
 ![image](diff-output-2.jpg)
 
-This tell us that on line 212 of the `results.txt` files, the student's `markdown-parse` produces `[not a link]`, while the provided implementation produces `[]`. We can find this by heading to that line in both the `results.txt` files.
+This tell us that on line 1040 of the `results.txt` files, the student's `markdown-parse` produces `[not a link]`, while the provided implementation produces `[]`. We can find this by heading to that line in both the `results.txt` files.
 
 Our implementation: ![image](sri-output-2.jpg)
 
