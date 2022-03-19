@@ -29,6 +29,10 @@ This shows us that the `577.md` test file is causing the different outputs. Thes
 ![foo](train.jpg)
 ```
 Since this is the syntax for an image and not a link, the correct output should be just `[]`, so our group's implementation was correct. 
+Here is the code of the provided implementation:
+![image](fix-code-1.jpg)
+
+The problem with this code is that it does not differentiate between a link and an image. This can be resolved by inserting an if-statement after declaring `nextOpenBracket`, checking if the index before `nextOpenBracket` is equal to `!`, which indicates that it is a image instead of a link, and then updating `currentIndex` accordingly to not add the image to `toReturn`.
 
 
 
