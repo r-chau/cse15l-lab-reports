@@ -12,7 +12,7 @@ diff sri-mdparse/results.txt lab-9-mdparse/results.txt
 
 By looking at the output of this command, I was able to find two tests that provided different results.
 
-> **`577.md`**
+## **`577.md`**
 
 This is what I found after using `diff`:
 
@@ -32,7 +32,7 @@ Since this is the syntax for an image and not a link, the correct output should 
 
 
 
-> **`567.md`**
+## **`567.md`**
 
 This is what I found after using `diff`:
 
