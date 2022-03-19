@@ -32,8 +32,7 @@ Since this is the syntax for an image and not a link, the correct output should 
 Here is the code of the provided implementation:
 ![image](fix-code-1.jpg)
 
-The problem with this code is that it does not differentiate between a link and an image. This can be resolved by inserting an if-statement after declaring `nextOpenBracket`, checking if the index before `nextOpenBracket` is equal to `!`, which indicates that it is a image instead of a link, and then updating `currentIndex` accordingly to not add the image to `toReturn`.
-
+The problem with this code is that it does not differentiate between a link and an image. This can be resolved by inserting an if-statement checking if the index before `nextOpenBracket` is equal to `!`, which indicates that it is a image instead of a link, and then updating `currentIndex` to be `closeParen + 1`, skipping past the image.
 
 
 ## **`567.md`**
@@ -54,4 +53,7 @@ This shows us that the `567.md` test file is causing the different outputs. Thes
 
 [foo]: /url1
 ```
-The correct expected output for this test file should be `[]`, so the given implementation produces the correct output. 
+The correct expected output for this test file should be `[]`, so the given implementation produces the correct output. Here is the code of our group's implementation:
+![image](fix-code-2.jpg)
+
+The problem with this code is that it does not check if there is any empty space between the parentheses, which makes a link not valid. This can be resolved by checking if the substring from `openParen` to `closeParen` contains an open space, and updating `currentIndex` accordingly so that it is not added to `toReturn` if an empty space is found.
